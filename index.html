@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="images.png" alt="Gambar Profil" class="profile-pic" width="100" height="100">
+            <h2>Nama Anda</h2>
+        </div>
+        <div class="main">
+            <div class="header">
+                <button id="homeButton">Home</button>
+                <button id="logoutButton">Logout</button>
+            </div>
+            <h1>About</h1>
+            <div class="about">
+                <div class="info">
+                    <div class="field">
+                        <label for="full-name">Nama:</label>
+                        <span id="full-name"></span>
+                    </div>
+                    <div class="field">
+                        <label for="email">Email:</label>
+                        <span id="email"></span>
+                    </div>
+                    <div class="field">
+                        <label for="phone">Telepon:</label>
+                        <span id="phone"></span>
+                    </div>
+                    <div class="field">
+                        <label for="address">Alamat:</label>
+                        <span id="address"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="projects">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Deskripsi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Masukan Tentang diri anda</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('homeButton').addEventListener('click', function() {
+            window.location.href = 'https://arhyyyyy.github.io/ArhyCH/';
+        });
+
+        document.getElementById('logoutButton').addEventListener('click', function() {
+            window.location.href = 'https://arhyyyyy.github.io/ArhyCH/';
+        });
+    </script>
+</body>
+</html>
